@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #fff;
+}
+
+/*DIV PADRE*/
+
+.container-principal{
+    display: flex;
+    flex-direction: row;
+}
+
+/*DIV 1*/
+
+.barralateral{
+    height: 150vh;
+    width: 30%;
+    border: 1px #eceff1 solid;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 50px;
+}
+
+.menubar{
+    width: 88px;
+    margin-top: 1px;
+    margin-left: 100px;
+    
+}
+
+.texto_menu{
+    text-decoration: none;
+    
+   
+}
+
+.texto_menu1{
+    text-decoration: none;
+    color: #f178b6;
+}
+
+.menu_link{
+    list-style: none;
+    margin: 20px;
+}
+
+.foto{
+    width: 10px;
+    display: flex;
+    justify-content: space-around;
+    float:left;
+    background-position:0%;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.buton{
+    margin-top: 30px;
+}
+
+button{
+    width: 185px;
+    height: 42px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #f178b6;
+    border: #f178b6;
+    cursor: pointer;
+
+}
+
+.perfil{
+    margin-top: 90px;
+    bottom:0;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil{
+    background: none;
+}
+
+.perfil{
+    width: 78px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.perfil img{
+    height: 50px;
+    width: 50px;
+    border-radius: 80px;
+    margin: 5px ;
+    padding: 6px;
+}
+
+.perfil_nombre{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.info{
+    font-weight:initial;
+    font-size: 15px;
+    color: #778999;
+}
+
+
+/*DIV 2*/
+
+.seccion2{
+    background: #ffffff ;
+    height: 150vh;
+    width: 42%;
+    border: 1px #eceff1 solid;
+    display: block;
+
+}
+
+.titulo2{
+    border: 1px #eceff1 solid;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.titulo2 h3{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+h3{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h4{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+/*TU YA SABES JEJE*/
+
+.tresj{
+    margin-top: 5px;
+}
+
+.tresj{
+    display: flex;
+    align-items: center;
+}
+
+.tresj img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 5px ;
+    padding: 6px;
+}
+
+.info5{
+    font-size: 14px;
+    color: #778999;
+}
+
+.chismes{
+    background: #000000;
+    height: 10px;
+    width: 50px;
+}
+
+.separador{
+    border: 10px #f7f9fa solid;
+    
+}
+
+.fotoscua{
+    margin-top: 0px;
+    justify-content:space-around;
+}
+
+.imagen{
+    width: 20px;
+    margin: 0 10px;
+}
+
+.info5{
+    font-size: 14px;
+    color: #778999;
+}
+
+.post_headerdescription{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.post_avatar img{
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 15px;
+}
+
+/*HOME */
+
+
+.post{
+    display: flex;
+    align-items: flex-start;
+    border-bottom:1px solid var(--bocas-background);
+    padding-bottom:10px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.post_body img{
+    width: 450px;
+    object-fit: contain;
+    border-radius: 20px;   
+    margin-top: 15px; 
+}
+
+.numeros{
+    margin-left:-90px; 
+}
+.post_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.post__badge{
+    font-size: 14px !important;
+    color: var(--bocas-color);
+    margin-right: 5px;
+}
+
+.post_header1{
+    font-weight: 600;
+    font-size: 12px;
+    color: grey;
+}
+
+/*DIV 3*/
+ 
+.seccion3{
+    height: 100vh;
+    width: 30%;
+    border: #eceff1;
+}
+
+.tarjeta0{
+    height: 4%;
+    width: 70%;
+    background: #ebeef0;
+    margin-left: 30px;
+    margin-top: 10px;
+
+    border-radius: 20px;
+}
+
+.enfocar{
+    margin-left: 5px;
+    font-size: 12px;
+    padding-left: 10px;
+    color:#989aab;
+}
+
+.enfocarF{
+    height: 22px;
+    margin-left: 9px;
+    padding-top: 1px;
+
+}
+
+.tarjeta1{
+    height: 60%;
+    width: 70%;
+    background: #fcddec;
+    margin-left: 30px;
+    margin-top: 10px;
+
+    border-radius: 20px;
+}
+
+/*CONTENIO TARJETA 1*/
+
+.info1{
+    padding: 10px;
+    margin-left: 2px;
+    font-size: 18px;
+}
+
+.tarjeta2{
+    height: 28%;
+    width: 70%;
+    background: #fcddec;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.info2{
+    padding: 10px;
+    margin-left: 2px;
+    font-size: 10px;
+    color: #989aab;
+    font-family: 'Courier New', Courier, monospace  ;
+    font-weight: 1px;
+}
+
+hr{
+    border: 1px #eceff1 solid;
+}
+
+span{
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+.parrafo1{
+    display: flex;
+}
+
+.info2 .textoT1{
+    color: #000000;
+    font-size: 12px;
+    margin-top: 1px;
+}
+
+.uno{
+    height: 55px;
+    border-radius: 10px;
+    width: 60px;
+    flex: 1;
+    margin-left: 5px;
+}
+
+.finTJ1{
+    color: #f178b6;
+}
+
+.finTJ2{
+    color: #f178b6;
+    margin-left: 15px;
+}
+
+
+.fininfo1{
+    margin-top: 5px;
+}
+
+
+/*TARJETA 2*/
+
+.TJ2-1{
+    padding: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+}
+
+.perfil100{
+    margin-top: 5px;
+    font-size: 5px;
+}
+
+.perfil100{
+    background: none;
+}
+
+.perfil100{
+    width: 78px;
+}
+
+.perfil100{
+    display: flex;
+    align-items: center;
+}
+
+.perfil100 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 80px;
+    margin: 5px ;
+    padding: 6px;
+}
+
+.perfil100_nombre{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.info100{
+    font-weight:initial;
+    font-size: 12px;
+    color: #778999;
+}
+
+.lado1{
+    background: #fcddec;
+    width: 80px;
+    height: 25px;
+    margin-left: 140px;
+    border-radius: 10px;
+    border: 1px #f178b6 solid;  
+
+}
+
+.lado2{
+    background: #fcddec;
+    width: 80px;
+    height: 25px;
+    margin-left: 140px;
+    border-radius: 10px;
+    border: 1px #f178b6 solid;
+}
+
+.lado1P{
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 3px;
+    font-weight: 10px;
+    color: #f178b6;
+}
+
+.finTJ3{
+    color: #f178b6;
+    margin-left: 15px;
+}
+
+.info1001{
+    font-weight:initial;
+    font-size: 12px;
+    color: #778999;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.info1002{
+    font-weight:initial;
+    font-size: 12px;
+    color: #778999;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
